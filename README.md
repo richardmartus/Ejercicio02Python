@@ -4,27 +4,23 @@ Se requiere un programa en Java para calcular el resultado de la suma, diferenci
 
 ## Etapa 02. Definición de la solución
 ~~~ Entrada
-  float cantidad
-  String moneda1, moneda2, moneda3, moneda4, moneda5
-  double conversion
+  float num1, num2, suma, resta, multiplicación, división, módulo
   
 - Proceso
 
-  Solicitar moneda a convertir
-  Solicitar cantidad a convertir
-  Solicitar moneda para procesar conversión
+  Solicitar el ingreso del primer número
+  Solicitar el ingreso del segundo número
   
-  Si el monto es mayor o igual que cero entonces se convertirá a la moneda deseada
-  Si el monto es menor que cero entonces se cancela la operación
+  Si el segundo número es cero, se debe mostrar advertencia por la operación de división y el módulo
  
 - Salida
   
   +----------+---------------+---------------------+----------------+
-  | CANTIDAD | MONEDA ORIGEN | CANTIDAD CONVERTIDA | MONEDA DESTINO |
+  | num1 | num2 | SUMA | RESTA | PRODUCTO | DIVISIÓN | MÓDULO
   +----------+---------------+---------------------+----------------+
-  |       10 |          DLLS |              189.79 |            MXN |
+  |   4  |   3  |  7   |   1   |    12    | DIVISIÓN |    1
   +----------+---------------+---------------------+----------------+
-  |       10 |          DLLS |             0.00043 |            BTC |
+  |   7  |   2  |  9   |   5   |    14    | DIVISIÓN |    1
   +----------+---------------+---------------------+----------------+
   
   ~~~
