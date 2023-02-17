@@ -1,7 +1,7 @@
 # Se requiere un programa en Java para calcular el resultado de la suma, diferencia, producto,
 #  módulo y cociente de dos números decimales de cualquier longitud.
 
-# print(f'{real:.2f}')
+
 class calculadora:
     def __init__(self, num1, num2):
         self.num1 = float(num1)
@@ -28,8 +28,8 @@ class calculadora:
         print("el resultado del módulo es: ", (f'{mod:.2f}'))
 
 
-num1 = input("ingrese un numero: ")
-num2 = input("ingrese un numero: ")
+num1 = input("ingrese el primer número: ")
+num2 = input("ingrese el segundo número: ")
 
 calculadora = calculadora(num1, num2)
 calculadora.sumar()
