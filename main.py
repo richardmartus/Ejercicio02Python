@@ -20,12 +20,18 @@ class calculadora:
         print("el resultado de la multiplicación es: ", (f'{multiplicacion:.2f}'))
 
     def dividir(self):
-        division = self.num1 / self.num2
-        print("el resultado de la división es: ", (f'{division:.2f}'))
+        if self.num2 == 0.00:
+            print ("El segundo operador es cero, esta operación no se puede realizar")
+        else:
+            division = self.num1 / self.num2
+            print("el resultado de la división es: ", (f'{division:.2f}'))
 
     def modulo(self):
-        mod = self.num1 % self.num2
-        print("el resultado del módulo es: ", (f'{mod:.2f}'))
+        if self.num2 == 0.00:
+            print ("El segundo operador es cero, esta operación no se puede realizar")
+        else:
+            mod = self.num1 % self.num2
+            print("el resultado del módulo es: ", (f'{mod:.2f}'))
 
 
 num1 = input("ingrese el primer número: ")
