@@ -21,25 +21,26 @@ class calculadora:
 
     def dividir(self):
         if self.num2 == 0.00:
-            print ("El segundo operador es cero, esta operación no se puede realizar")
+            print("El segundo operador es cero, esta operación no se puede realizar")
         else:
             division = self.num1 / self.num2
             print("el resultado de la división es: ", (f'{division:.2f}'))
 
     def modulo(self):
         if self.num2 == 0.00:
-            print ("El segundo operador es cero, esta operación no se puede realizar")
+            print("El segundo operador es cero, esta operación no se puede realizar")
         else:
             mod = self.num1 % self.num2
             print("el resultado del módulo es: ", (f'{mod:.2f}'))
 
 
-num1 = input("ingrese el primer número: ")
-num2 = input("ingrese el segundo número: ")
+if __name__ == '__main__':
+    num1 = input("ingrese el primer número: ")
+    num2 = input("ingrese el segundo número: ")
 
-calculadora = calculadora(num1, num2)
-calculadora.sumar()
-calculadora.restar()
-calculadora.multiplicar()
-calculadora.dividir()
-calculadora.modulo()
+    calculadora = calculadora(num1, num2)
+    calculadora.sumar()
+    calculadora.restar()
+    calculadora.multiplicar()
+    calculadora.dividir()
+    calculadora.modulo()
