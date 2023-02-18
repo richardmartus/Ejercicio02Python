@@ -28,5 +28,7 @@ Se requiere un programa para calcular el resultado de la suma, diferencia, produ
 ![Diagrama](https://github.com/richardmartus/Ejercicio02Python/blob/main/.idea/Diagrama%20de%20Clases.png)
 
 ## Etapa 04. Desarrollo de la solución
+Código disponible en el archivo [main](main.py)
+
 ## Etapa 05. Depuración y Pruebas
-## Etapa 06. Documentación
+
