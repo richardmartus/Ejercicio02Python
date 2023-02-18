@@ -25,6 +25,8 @@ Se requiere un programa en Java para calcular el resultado de la suma, diferenci
   
   ~~~
 ## Etapa 03. Diseño la solución
+![Diagrama](https://github.com/richardmartus/Ejercicio02Python/blob/main/.idea/Diagrama%20de%20Clases.png)
+
 ## Etapa 04. Desarrollo de la solución
 ## Etapa 05. Depuración y Pruebas
 ## Etapa 06. Documentación
