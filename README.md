@@ -31,4 +31,6 @@ Se requiere un programa para calcular el resultado de la suma, diferencia, produ
 Código disponible en el archivo [main](main.py)
 
 ## Etapa 05. Depuración y Pruebas
+![Diagrama](https://github.com/richardmartus/Ejercicio02Python/blob/main/.idea/prueba1Ej02.png)
+
 
