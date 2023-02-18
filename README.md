@@ -3,7 +3,7 @@
 Se requiere un programa en Java para calcular el resultado de la suma, diferencia, producto, módulo y cociente de dos números decimales de cualquier longitud.
 
 ## Etapa 02. Definición de la solución
-~~~ Entrada
+ Entrada
   float num1, num2, suma, resta, multiplicación, división, módulo
   
 - Proceso
@@ -14,7 +14,7 @@ Se requiere un programa en Java para calcular el resultado de la suma, diferenci
   Si el segundo número es cero, se debe mostrar advertencia por la operación de división y el módulo
  
 - Salida
-  
+~~~
   +----------+---------------+---------------------+----------------+
   | num1 | num2 |   SUMA  |   RESTA  |   PRODUCTO  | DIVISIÓN | MÓDULO
   +----------+---------------+---------------------+----------------+
